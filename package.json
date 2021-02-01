@@ -1,6 +1,6 @@
 {
   "name": "object-action-recorder",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Object action recorder by Proxy.",
   "main": "nodejs/index.js",
   "scripts": {
