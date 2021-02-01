@@ -1,6 +1,6 @@
 {
   "name": "object-action-recorder",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Object action recorder by Proxy.",
   "main": "nodejs/index.js",
   "scripts": {
@@ -47,6 +47,9 @@
   "module": "browser/index.js",
   "unpkg": "object-action-recorder.min.js",
   "jsdelivr": "object-action-recorder.min.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "typeCoverage": {
     "atLeast": 95.83
   }

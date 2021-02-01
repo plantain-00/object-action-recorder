@@ -23,7 +23,8 @@ import ObjectActionRecorder from "object-action-recorder";
 // <script src="./node_modules/object-action-recorder/object-action-recorder.min.js"></script>
 
 const recorder = new ObjectActionRecorder<CanvasRenderingContext2D>()
-const ctx = new Proxy(document.createElement('canvas').getContext('2d'), recorder)
+let ctx = document.createElement('canvas').getContext('2d')
+ctx = new Proxy(ctx, recorder)
 ctx.fillStyle = 'green'
 ctx.fillRect(10, 10, 150, 100)
 console.info(recorder.actions)
