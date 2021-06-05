@@ -4,7 +4,6 @@ Object action recorder by Proxy.
 
 [![Dependency Status](https://david-dm.org/plantain-00/object-action-recorder.svg)](https://david-dm.org/plantain-00/object-action-recorder)
 [![devDependency Status](https://david-dm.org/plantain-00/object-action-recorder/dev-status.svg)](https://david-dm.org/plantain-00/object-action-recorder#info=devDependencies)
-[![Build Status: Linux](https://travis-ci.org/plantain-00/object-action-recorder.svg?branch=master)](https://travis-ci.org/plantain-00/object-action-recorder)
 [![Build Status: Windows](https://ci.appveyor.com/api/projects/status/github/plantain-00/object-action-recorder?branch=master&svg=true)](https://ci.appveyor.com/project/plantain-00/object-action-recorder/branch/master)
 ![Github CI](https://github.com/plantain-00/object-action-recorder/workflows/Github%20CI/badge.svg)
 [![npm version](https://badge.fury.io/js/object-action-recorder.svg)](https://badge.fury.io/js/object-action-recorder)
