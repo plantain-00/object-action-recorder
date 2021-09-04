@@ -14,7 +14,7 @@ export default class ObjectActionRecorder<T extends object> implements ProxyHand
           args,
           target,
         })
-        result = (target as { [name: string]: (...args: unknown[]) => unknown })[propertyName](...args)
+        result = (target as { [name: string]: (...args: unknown[]) => unknown })[propertyName]?.(...args)
         if (typeof result === 'object' && result !== null) {
           return new Proxy(result, this)
         }
